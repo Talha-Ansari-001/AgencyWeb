@@ -25,7 +25,7 @@ export const projects = [
     badgeColor: "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20",
     image: "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=1200&q=80",
     demoUrl: "https://example.com/demo/apex-wealth",
-    githubUrl: "https://github.com/nexusdev/apex-wealth-preview"
+    githubUrl: "https://github.com/quantifyinfotech/apex-wealth-preview"
   },
   {
     id: "luxury-ecommerce-aura",
@@ -53,7 +53,7 @@ export const projects = [
     badgeColor: "bg-amber-500/10 text-amber-600 dark:text-amber-400 border-amber-500/20",
     image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
     demoUrl: "https://example.com/demo/aura-living",
-    githubUrl: "https://github.com/nexusdev/aura-living-storefront"
+    githubUrl: "https://github.com/quantifyinfotech/aura-living-storefront"
   },
   {
     id: "saas-pulsemetrics",
@@ -81,7 +81,7 @@ export const projects = [
     badgeColor: "bg-purple-500/10 text-purple-600 dark:text-purple-400 border-purple-500/20",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
     demoUrl: "https://example.com/demo/pulsemetrics",
-    githubUrl: "https://github.com/nexusdev/pulsemetrics-saas"
+    githubUrl: "https://github.com/quantifyinfotech/pulsemetrics-saas"
   },
   {
     id: "corporate-lumina",
@@ -109,6 +109,6 @@ export const projects = [
     badgeColor: "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20",
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
     demoUrl: "https://example.com/demo/lumina-cleantech",
-    githubUrl: "https://github.com/nexusdev/lumina-enterprise"
+    githubUrl: "https://github.com/quantifyinfotech/lumina-enterprise"
   }
 ];

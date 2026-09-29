@@ -1,62 +1,70 @@
+import { Compass, Layers, Code2, Rocket } from 'lucide-react';
+
 export const processSteps = [
   {
     step: "01",
+    phase: "Phase 01",
     title: "Discovery & Strategy",
+    timeline: "Week 1",
     duration: "Week 1",
-    tagline: "Uncovering your competitive advantage and defining precise technical architecture.",
+    icon: Compass,
     deliverables: [
       "Product Requirements Document (PRD)",
-      "Tech stack evaluation & system architecture",
-      "Competitive benchmarking & user persona mapping",
-      "Project milestone timeline & budget lock"
+      "Tech stack evaluation & database schema plan",
+      "Competitive benchmarking & user flow mapping",
+      "Project milestone timeline & fixed budget lock"
     ],
-    icon: "Compass",
-    color: "from-blue-500 to-indigo-600",
+    focusDetail: "We audit your business model, customer journey, and technical requirements to formulate an airtight roadmap with zero ambiguity.",
     detail: "We audit your business model, customer journey, and technical requirements to formulate an airtight roadmap with zero ambiguity."
   },
   {
     step: "02",
+    phase: "Phase 02",
     title: "UI/UX Design",
-    duration: "Week 2 - 3",
-    tagline: "Crafting bespoke, high-converting visual interfaces and design systems.",
+    timeline: "Week 2 – 3",
+    duration: "Week 2 – 3",
+    icon: Layers,
     deliverables: [
       "Figma high-fidelity interactive prototypes",
-      "Comprehensive design token system (Dark & Light)",
-      "Motion choreography & micro-interaction specs",
-      "User testing & usability validation"
+      "Comprehensive design tokens (Light & Dark Mode)",
+      "Micro-interactions & mobile-first layouts",
+      "User testing & client feedback iterations"
     ],
-    icon: "Layers",
-    color: "from-indigo-500 to-purple-600",
-    detail: "Every typography pairing, button click, and modal transition is intentionally designed to evoke credibility and drive high conversion rates."
+    focusDetail: "We design conversion-focused user interfaces that match your brand identity across all screen sizes before touching code.",
+    detail: "We design conversion-focused user interfaces that match your brand identity across all screen sizes before touching code."
   },
   {
     step: "03",
+    phase: "Phase 03",
     title: "Full-Stack Development",
-    duration: "Week 4 - 7",
-    tagline: "Writing clean, type-safe, production-ready code with continuous integration.",
+    timeline: "Week 4 – 7",
+    duration: "Week 4 – 7",
+    icon: Code2,
     deliverables: [
-      "Modular React / Tailwind CSS architecture",
-      "API integrations (Stripe, Headless CMS, Auth0)",
-      "Responsive layout for mobile, tablet, desktop",
-      "Automated testing suite & code reviews"
+      "Modular React / Tailwind CSS frontend",
+      "Node.js & Express REST APIs + Auth",
+      "Database setups (SQL / MongoDB / Supabase)",
+      "Payment gateway & custom code integrations"
     ],
-    icon: "Code2",
-    color: "from-purple-500 to-cyan-500",
-    detail: "We engineer pixel-perfect components with performance front-of-mind, maintaining strict Lighthouse 95+ standards and WCAG compliance."
+    focusDetail: "We transform approved designs into scalable, production-ready code with clean architecture and continuous testing.",
+    detail: "We transform approved designs into scalable, production-ready code with clean architecture and continuous testing."
   },
   {
     step: "04",
+    phase: "Phase 04",
     title: "Launch & Growth Support",
+    timeline: "Week 8 & Beyond",
     duration: "Week 8 & Beyond",
-    tagline: "Stress testing, automated deployment, and dedicated ongoing SLA support.",
+    icon: Rocket,
     deliverables: [
-      "Global CDN edge deployment (Vercel / AWS)",
-      "SEO schema markup, sitemaps & analytics setup",
-      "Full team handoff & video documentation",
-      "24/7 uptime monitoring & priority SLA support"
+      "Production deployment (Vercel / AWS / Cloudflare)",
+      "Core Web Vitals 90+ & SSL configuration",
+      "Complete team handoff & admin panel walk-through",
+      "1 Year Free Support, SSL & SLA coverage"
     ],
-    icon: "Rocket",
-    color: "from-cyan-500 to-emerald-500",
-    detail: "We don't vanish after release. We monitor server telemetry, tune conversion funnels, and assist in scaling your product smoothly."
+    focusDetail: "We deploy your project to high-speed hosting and guarantee 1 year of ongoing technical support and maintenance.",
+    detail: "We deploy your project to high-speed hosting and guarantee 1 year of ongoing technical support and maintenance."
   }
 ];
+
+export default processSteps;

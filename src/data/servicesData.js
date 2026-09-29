@@ -1,65 +1,70 @@
 export const services = [
   {
-    id: "website-dev",
-    title: "Website Development",
-    tagline: "Ultra-fast digital flagships engineered to convert visitors into lifelong clients.",
+    id: "website-development",
+    badge: "1 - 2 Weeks Delivery",
     icon: "Globe",
-    highlights: [
-      "High-Converting Landing Pages",
-      "Enterprise Corporate Sites",
-      "Headless CMS Architecture (Sanity, Strapi)",
-      "Technical SEO & Core Web Vitals 99+"
+    title: "Website Development",
+    description: "Ultra-fast digital flagships engineered to convert visitors with guaranteed high performance.",
+    coreSolutions: [
+      "High-Converting Landing Pages & Corporate Sites",
+      "Core Web Vitals 90+ Score Optimization",
+      "Technical SEO & Clean Semantic Architecture",
+      "Responsive Layouts Tailored for All Viewports"
     ],
-    deliverables: [
-      "Custom responsive design for all viewports",
-      "Micro-interactions & scroll storytelling",
-      "Automated Lighthouse CI/CD optimization",
-      "Semantic HTML & WCAG AAA Accessibility"
+    keyDeliverables: [
+      "Custom UI/UX with smooth micro-interactions",
+      "Free SSL Certificate & Security Setup",
+      "1 Year Free Support & SLA Coverage"
     ],
+    category: "Websites",
     gradient: "from-blue-500 to-indigo-600",
-    shadowColor: "shadow-indigo-500/20",
-    badge: "Fast Turnaround"
+    badgeColor: "bg-blue-50 text-blue-700 border-blue-200/80 dark:bg-blue-950/50 dark:text-blue-300 dark:border-blue-800/60",
+    iconBg: "bg-blue-50 dark:bg-blue-950/40 text-blue-600 dark:text-blue-400 border-blue-100 dark:border-blue-800/50 group-hover:bg-blue-600 group-hover:text-white"
   },
   {
     id: "ecommerce-stores",
-    title: "E-Commerce Stores",
-    tagline: "Bespoke digital shopping experiences built for maximum checkout velocity.",
+    badge: "4 -6 Weeks Delivery",
     icon: "ShoppingBag",
-    highlights: [
-      "Custom High-Speed Checkout Flows",
-      "Stripe, PayPal & Multi-Currency Payment Setups",
-      "Real-time Inventory & Order Management UI",
-      "Personalized Product Recommendations & Upsells"
+    title: "E-Commerce Stores",
+    description: "Bespoke online stores built on WooCommerce or fully custom code for maximum checkout velocity.",
+    coreSolutions: [
+      "WooCommerce Custom Theme & Plugin Setup",
+      "Custom E-Commerce Built from Scratch (Node/React)",
+      "Secure Payment Gateway Integrations (Stripe, PayPal, Local Gateways)",
+      "Automated Order & Inventory Syncing"
     ],
-    deliverables: [
-      "Headless Shopify / Medusa / Custom cart engines",
-      "Frictionless one-click mobile checkout",
-      "Automated abandoned cart & email hooks",
-      "Analytics dashboards for LTV & CAC tracking"
+    keyDeliverables: [
+      "Frictionless mobile checkout flow",
+      "Automated abandoned cart & order notifications",
+      "1 Year Free Support & Managed SSL"
     ],
+    category: "E-Commerce",
     gradient: "from-amber-500 to-rose-600",
-    shadowColor: "shadow-rose-500/20",
-    badge: "High ROI"
+    badgeColor: "bg-amber-50 text-amber-700 border-amber-200/80 dark:bg-amber-950/50 dark:text-amber-300 dark:border-amber-800/60",
+    iconBg: "bg-amber-50 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400 border-amber-100 dark:border-amber-800/50 group-hover:bg-amber-600 group-hover:text-white"
   },
   {
     id: "web-applications",
-    title: "Web Applications",
-    tagline: "Scalable SaaS platforms, interactive portals, and complex cloud dashboards.",
+    badge: "10 - 12 Weeks Delivery",
     icon: "Cpu",
-    highlights: [
-      "Production React / Next.js SaaS Platforms",
-      "REST, GraphQL & WebSocket Live Dashboards",
-      "Custom Portals, Role-Based Access & Auth",
-      "End-to-End API Integration & Cloud Microservices"
+    title: "Web Applications",
+    description: "Full-stack web applications, trader inventory systems, and custom operational portals.",
+    coreSolutions: [
+      "Trader Inventory & Sales Management Web Apps",
+      "Node.js & Express RESTful API Backends",
+      "SQL & NoSQL Databases (MySQL, PostgreSQL, MongoDB)",
+      "BaaS Integration (Supabase, Firebase, Real-time Sync)"
     ],
-    deliverables: [
-      "Robust client-side state architecture",
-      "Multi-tenant database schema & role security",
-      "Real-time data visualization & interactive graphs",
-      "Automated testing suite & zero-downtime deploys"
+    keyDeliverables: [
+      "Role-based access control (RBAC) & secure auth",
+      "Real-time analytics & reporting dashboards",
+      "1 Year Free Support + Dedicated SLA Package"
     ],
+    category: "Web Apps",
     gradient: "from-purple-600 to-cyan-500",
-    shadowColor: "shadow-purple-500/20",
-    badge: "Enterprise Ready"
+    badgeColor: "bg-purple-50 text-purple-700 border-purple-200/80 dark:bg-purple-950/50 dark:text-purple-300 dark:border-purple-800/60",
+    iconBg: "bg-purple-50 dark:bg-purple-950/40 text-purple-600 dark:text-purple-400 border-purple-100 dark:border-purple-800/50 group-hover:bg-purple-600 group-hover:text-white"
   }
 ];
+
+export default services;

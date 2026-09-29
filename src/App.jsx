@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Services from './components/Services';
+import ServicesSection from './components/ServicesSection';
 import FeaturedWork from './components/FeaturedWork';
 import CaseStudyModal from './components/CaseStudyModal';
-import Process from './components/Process';
+import ProcessSection from './components/ProcessSection';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -12,7 +12,7 @@ export default function App() {
   // Theme state with localStorage persistence and system preference fallback
   const [darkMode, setDarkMode] = useState(() => {
     if (typeof window !== 'undefined') {
-      const savedTheme = localStorage.getItem('nexusdev-theme');
+      const savedTheme = localStorage.getItem('quantify-theme') || localStorage.getItem('nexusdev-theme');
       if (savedTheme) {
         return savedTheme === 'dark';
       }
@@ -32,10 +32,10 @@ export default function App() {
     const root = document.documentElement;
     if (darkMode) {
       root.classList.add('dark');
-      localStorage.setItem('nexusdev-theme', 'dark');
+      localStorage.setItem('quantify-theme', 'dark');
     } else {
       root.classList.remove('dark');
-      localStorage.setItem('nexusdev-theme', 'light');
+      localStorage.setItem('quantify-theme', 'light');
     }
   }, [darkMode]);
 
@@ -62,13 +62,13 @@ export default function App() {
         <Hero />
 
         {/* Services Section (#services) */}
-        <Services onSelectService={handleSelectServiceFromCard} />
+        <ServicesSection onSelectService={handleSelectServiceFromCard} />
 
         {/* Featured Work / Portfolio Section (#work) */}
-        {/* <FeaturedWork onSelectProject={handleOpenCaseStudy} /> */}
+        <FeaturedWork onSelectProject={handleOpenCaseStudy} />  
 
         {/* Process Section (#process) */}
-        <Process />
+        <ProcessSection />
 
         {/* Contact Section (#contact) */}
         <Contact initialService={contactService} />
