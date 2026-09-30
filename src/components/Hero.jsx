@@ -69,7 +69,7 @@ export default function Hero() {
 
             {/* Subheadline mentioning Websites, E-Commerce, and Web Applications */}
             <p className="text-base sm:text-lg lg:text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-              QUANTIFY INFOTECH is an elite engineering agency engineering bespoke{' '}
+              QUANTIFY INFOTECH is an elite engineering agency bespoke{' '}
               <strong className="text-slate-900 dark:text-white font-medium">Websites</strong>, high-conversion{' '}
               <strong className="text-slate-900 dark:text-white font-medium">E-Commerce Stores</strong>, and scalable{' '}
               <strong className="text-slate-900 dark:text-white font-medium">Web Applications</strong> for venture-backed startups and modern brands.
